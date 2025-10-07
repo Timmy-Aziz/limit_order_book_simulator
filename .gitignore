@@ -1,0 +1,67 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Executables
+test_order_book
+benchmark
+market_simulator
+example
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Profiling files
+*.prof
+gmon.out
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# Backup files
+*.bak
+*.backup
